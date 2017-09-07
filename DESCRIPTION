@@ -1,0 +1,21 @@
+Package: AdapSamp
+Type:Package
+Title: Adaptive Sampling Algorithms
+Version: 1.0
+Authors@R: person("Dong", "Zhang", email = "dzhang0716@126.com", role = "cre")
+Description: For distributions whose probability density functions are log-
+    concave, Adaptive Rejection Sampling (ARS) algorithm can be used to build for
+    sampling. For others, we can use Modifed Adaptive Rejection Sampling (MARS)
+    algorithm, Concave-Convex Adaptive Rejection (CCARS) Sampling algorithm and
+    Adaptive Slice Sampling (ASS) algorithm  So we designed an R package including
+    mainly 4 functions: rARS, rMARS, rCCARS, and rASS. These functions can
+    realize sampling based on the algorithms above.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+NeedsCompilation: no
+Author: Dong Zhang [cre]
+Imports:
+  pracma,stats,utils
+Maintainer: Dong Zhang <dzhang0716@126.com>
